@@ -33,6 +33,10 @@ fc_challenge_params_dict = {
                     "t" : 50,
                     "N" : [int(n) for n in np.logspace(1, 3, num=20, endpoint=True)],
                 },
+                "lr_aryav": { #ADD THESE LINES
+		            "l" : 25,       #ADD THESE LINES
+		            "trials": 200,  #ADD THESE LINES
+                },
                 "lr_5" : { "l" : 5 }, #DONE
                 "lr_10" : { "l" : 10 }, 
                 "lr_20" : { "l" : 20 },
