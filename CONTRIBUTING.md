@@ -103,7 +103,7 @@
        ```
        For Macs with Apple Silicon, you might want to add `tensorflow-mac` for Mac GPU support when running tensorflow. Please check [Apple](https://developer.apple.com/metal/tensorflow-plugin/) for system requirements.
 
-13. **Reload your terminal to activate the pdm venv.**
+13. **Reload your terminal to activate the pdm venv. Make sure to always activate the pdm venv whenver you open a new terminal window**
    or run
    ```shell
    $(pdm venv activate)
